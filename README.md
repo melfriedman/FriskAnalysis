@@ -6,6 +6,16 @@ In the fifty plus years since this case, people have been more concerned with po
 
 The goal of this analysis is to limit the amount of bias and have a machine classifier be the judge of whether these recorded stops infringed on a person’s Fourth Amendment right. With this information further analysis will be done to determine how big of a role race and gender plays in, as well as if there is an increase or decrease in occurrences based on time and day.
 
+## Exploratory Data Analysis
+When viewing values for if someone was frisked and if they were arrested, it was discoved that out of 44,859 stops there were 2,735 arrests made. However 10,104 people were frisked. This means that approximately 73% of people that were frisked were completely innocent and not arrested.
+
+![alt text](https://github.com/melfriedman/FriskAnalysis/blob/main/images/Frisk%20graph.png?raw=true)
+
+While it is assumed that someone having a weapon on them will effect this outcome, is this what the data will show? And if not is frisking someone even necessary for making an arrest if this affects innocent people?
+
+![alt text](https://github.com/melfriedman/FriskAnalysis/blob/main/images/Feature%20Importance%20Plot.png?raw=true)
+Besides being an unknown or unreported race, Black African Americans have the most influence on the preliminary model.
+
 ## Models used:
 Logistic Regression
 
@@ -16,7 +26,8 @@ Decision Trees:
 
 XGBoost
 
-
+## Final Model
+While the final models had about 94% accuracy, there is still plenty of room for optimizing the parameters (for XGBoost). Going forward more adjustments on the parameters and possibly making adjustments to further clean up the data set to prevent overfitting could further improve the model.
 
 #### Sources and More Information
 Data from https://catalog.data.gov/dataset/terry-stops
