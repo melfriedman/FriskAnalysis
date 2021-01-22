@@ -6,6 +6,18 @@ In the fifty plus years since this case, people have been more concerned with po
 
 The goal of this analysis is to limit the amount of bias and have a machine classifier be the judge of whether these recorded stops infringed on a person’s Fourth Amendment right. With this information further analysis will be done to determine how big of a role race and gender plays in, as well as if there is an increase or decrease in occurrences based on time and day.
 
+## Models used:
+Logistic Regression
+
+Decision Trees:
+* Base Decision Tree model
+* Bagged Trees
+* Random Forests
+
+XGBoost
+
+
+
 #### Sources and More Information
 Data from https://catalog.data.gov/dataset/terry-stops
 
